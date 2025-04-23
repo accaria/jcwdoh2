@@ -4,14 +4,20 @@ OUTPUT: 9X1, 9X2,.....9X10
 */
 
 let numb= 9;
+let message ="";
 for (let i = 1; i<=numb+1; i++){
     console.log(`${numb} * ${i}`);
+    message += `${numb} x ${i} \n`
 }
+console.log(message);
 
 /*
 Write a code to check whether a string is a palindrome or not
 */
-
+let string ="madam";
+let reversestring = string.split("").reverse().join("");
+console.log(reversestring);
+console.log(string == reversestring ? "palindrome" :"Bukan Palindrome"); 
 
 /*
 Write a code to convert centimeter to kilometer
@@ -21,7 +27,7 @@ Example: 100000 -> "1KM"
 let cm = 100000;
 let km;
 km = cm /100000;
-console.log(`${cm}cm equals to ${km}km`);
+console.log(`${cm} cm equals to ${km}km`);
 
 /*
 Write a code to format number as currency (IDR)
@@ -40,6 +46,7 @@ example: string = "Hello world", search string = "ell" -> "Ho World"
 let word = "Hello World";
 let search = word.replace("ell", "");
 console.log(search);
+console.log(word.length);
 
 /*
 Write code to find the largest of two given integers

@@ -173,6 +173,7 @@ if (number%2 == 0){
 else{
     console.log("Number is odd");
 }
+console.log(number%2==0 ? "Angka Genap" : "Angka Ganjil");
 
 let number1 = 2;
 if (number1%2 == 0){
