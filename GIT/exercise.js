@@ -49,6 +49,24 @@ console.log(search);
 console.log(word.length);
 
 /*
+Quick Brown Fox
+*/
+
+string = "The QuIcK BrOWn FoX";
+let splitString = string.split("");
+console.log(splitString);
+
+for (let i=0; i< splitString.length; i++){
+    if(splitString[i] === splitString[i].toUpperCase()){
+        splitString[i] =splitString[i].toLowerCase()
+    }
+    else{
+        splitString[i] = splitString[i].toUpperCase()
+    }
+}
+console.log(splitString.join(""));
+
+/*
 Write code to find the largest of two given integers
 example: num1 =42 , num2 = 27 -> 42
 */
@@ -114,3 +132,6 @@ let Sentence = "an apple a day keeps the doctor away";
 let newSentence= Sentence.replace(/a/g ,"*");
 console.log(newSentence);
 
+let Sentence1 = "an apple a day keeps the doctor away";
+let Sentence1split = Sentence1.split("");
+console.log(Sentence1split);
