@@ -83,7 +83,7 @@ function greet(a,b,...c){
     console.log(c);
     return a + b;
 }
-console.log(greet("Hello"," World","Welcome","To our place"));
+console.log(greet("Hello"," World","Welcome To our place"));
 
 function sum(...a){
     let sum =0;
@@ -141,3 +141,5 @@ function counttoTen(number){
     if (number <= 10) counttoTen(number);
 }
 console.log(counttoTen(1));
+
+

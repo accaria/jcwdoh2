@@ -151,6 +151,10 @@ const DateShow1 = Date1.getTime()
 const DateShow2 = Date2.getTime()
 console.log(DateShow1);
 console.log(DateShow2);
+let DateShow3 = DateShow2 - DateShow1;
+DateShow3 = DateShow3 / (1000*60*60*24)
+console.log(DateShow3);
+
 const MSDifference = Date2.getTime() - Date1.getTime();
 console.log(MSDifference);
 const DDifference = MSDifference / (1000 * 60 * 60 * 24)
@@ -252,3 +256,4 @@ function fibonaccinum(fn){
 
     }
 console.log(fibonaccinum(15));
+

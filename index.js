@@ -273,3 +273,13 @@ console.log(MSDifference);
 const DDifference = MSDifference / (1000 * 60 * 60 * 24)
 console.log(DDifference);
 console.log(`The difference is ${DDifference} days`);
+
+
+function currencyprint(amount,currencyCode='USD',locale ='USD'){
+     const amountinUSD = amount;
+     return amountinUSD.toLocaleString(locale,{
+          style:'currency',
+          currency:currencyCode
+     });
+}
+console.log(currencyprint(100));

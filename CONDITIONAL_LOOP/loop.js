@@ -1,6 +1,7 @@
 //LOOP STATEMENT
 
 const tampilkan = 0;
+const kondisi = false;
 
 //FOR LOOP
 for (let a = 1; a <= tampilkan; a++){
@@ -9,7 +10,7 @@ for (let a = 1; a <= tampilkan; a++){
 
 //WHILE LOOPING BREAK
 let x = 1;
-while (true){
+while (kondisi==true){
     console.log(x);
     console.log("Print");
     if (x===tampilkan){

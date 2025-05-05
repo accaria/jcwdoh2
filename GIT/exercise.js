@@ -120,7 +120,7 @@ function datatypecheck(data){
     console.log('3');
     }
 }
-datatypecheck("Hello");
+datatypecheck('Hello');
 
 
 /*
